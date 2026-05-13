@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image, Hyperlink and Nested Table</title>
+</head>
+<body>
+
+    <h1>HTML Webpage Example</h1>
+
+    <h2>Image</h2>
+    <img src="C:\Users\gauri dube\OneDrive\Attachments\Pictures\DYN08656_result.jpg" alt="Nature Image" width="300" height="200">
+
+    <h2>Website Link</h2>
+    <a href="https://www.youtube.com/" target="_blank">
+        Visit Youtube
+    </a>
+
+    <!-- Nested Table -->
+    <h2>Nested Table</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Main Table</th>
+            <th>Nested Table</th>
+        </tr>
+
+        <tr>
+            <td>Student Details</td>
+
+            <td>
+                <table border="1" cellpadding="5">
+                    <tr>
+                        <th>Name</th>
+                        <th>Course</th>
+                    </tr>
+
+                    <tr>
+                        <td>Gauri</td>
+                        <td>BE CS</td>
+                    </tr>
+
+                    <tr>
+                        <td>Shrija</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

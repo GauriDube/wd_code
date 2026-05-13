@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Date and Time in PHP</title>
+</head>
+<body>
+
+    <h2>Welcome to PHP Program</h2>
+
+    <?php
+        echo "<h3>Current Date and Time:</h3>";
+        echo date("d-m-Y h:i:s A");
+    ?>
+
+</body>
+</html>

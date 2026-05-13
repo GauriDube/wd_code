@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+</head>
+<body>
+
+    <h1><u>Personal Details</u></h1>
+
+    <p><b>Name:</b> Gauri Dube</p>
+
+    <p><i>Course:</i> B.Sc. Computer Science</p>
+
+    <p><mark>College Name:</mark> ABC College, Pune</p>
+
+    <p><b>Hobbies:</b> Reading, Dancing, Coding</p>
+
+    <p><u>Email:</u> gauri@gmail.com</p>
+
+    <p>Water Formula: H<sub>2</sub>O</p>
+
+    <p>(a + b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab</p>
+
+</body>
+</html>

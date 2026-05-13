@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Example</title>
+
+    <style>
+        h2 {
+            color: blue;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            color: green;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1 style="color:red; text-align:center;">
+        Welcome to CSS Demo
+    </h1>
+
+    <h2>Internal CSS Heading</h2>
+
+    <p>
+        This paragraph is styled using internal CSS.
+    </p>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+
+        <tr>
+            <td>Gauri</td>
+            <td>BSc CS</td>
+        </tr>
+
+        <tr>
+            <td>Shrija</td>
+            <td>BCA</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+

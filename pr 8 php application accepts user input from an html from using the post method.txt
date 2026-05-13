@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Form Using POST Method</title>
+</head>
+<body>
+
+    <h2>User Information Form</h2>
+
+        <form method="POST">
+
+        Name:
+        <input type="text" name="name">
+        <br><br>
+
+        Email:
+        <input type="email" name="email">
+        <br><br>
+
+        Course:
+        <input type="text" name="course">
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <hr>
+
+    <?php
+
+    if($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $course = $_POST['course'];
+
+        echo "<h2>Submitted Information</h2>";
+
+        echo "Name: " . $name . "<br>";
+        echo "Email: " . $email . "<br>";
+        echo "Course: " . $course . "<br>";
+    }
+
+    ?>
+
+</body>
+</html>

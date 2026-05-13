@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Array Example</title>
+</head>
+<body>
+
+    <h2>PHP Array Program</h2>
+
+    <?php
+
+        $students = array("Gauri", "Shrija", "Neha", "Amit");
+
+        echo "<h3>Using For Loop:</h3>";
+
+        for($i = 0; $i < count($students); $i++) {
+            echo $students[$i] . "<br>";
+        }
+
+        echo "<h3>Using Foreach Loop:</h3>";
+
+        foreach($students as $name) {
+            echo $name . "<br>";
+        }
+
+        echo "<h3>Array Functions:</h3>";
+
+        echo "Total Elements = " . count($students) . "<br>";
+
+        echo "First Element = " . $students[0] . "<br>";
+
+        echo "Last Element = " . end($students) . "<br>";
+
+    ?>
+
+</body>
+</html>

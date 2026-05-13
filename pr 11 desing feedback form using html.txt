@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+</head>
+<body>
+
+    <h2>User Feedback Form</h2>
+
+    <form>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="name" placeholder="Enter your name">
+        <br><br>
+
+        <label>Email Address:</label><br>
+        <input type="email" name="email" placeholder="Enter your email">
+        <br><br>
+
+        <label>Select Course:</label><br>
+        <select name="course">
+            <option>BSc CS</option>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>BBA</option>
+        </select>
+        <br><br>
+
+        <label>Rate Our Website:</label><br>
+
+        <input type="radio" name="rating" value="Excellent"> Excellent
+        <input type="radio" name="rating" value="Good"> Good
+        <input type="radio" name="rating" value="Average"> Average
+        <input type="radio" name="rating" value="Poor"> Poor
+        <br><br>
+
+        <label>Your Feedback:</label><br>
+        <textarea name="feedback" rows="5" cols="40"
+        placeholder="Write your feedback here"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>

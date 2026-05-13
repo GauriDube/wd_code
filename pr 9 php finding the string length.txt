@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP String Functions</title>
+</head>
+<body>
+
+    <h2>PHP String Manipulation Operations</h2>
+
+    <?php
+
+        $str1 = "Hello";
+        $str2 = "World";
+
+        echo "<h3>Original Strings:</h3>";
+        echo "String 1 = " . $str1 . "<br>";
+        echo "String 2 = " . $str2 . "<br><br>";
+
+        echo "<b>String Length:</b> ";
+        echo strlen($str1);
+        echo "<br><br>";
+
+        echo "<b>Reverse String:</b> ";
+        echo strrev($str1);
+        echo "<br><br>";
+
+        echo "<b>Substring:</b> ";
+        echo substr($str1, 1, 3);
+        echo "<br><br>";
+
+        echo "<b>Uppercase:</b> ";
+        echo strtoupper($str1);
+        echo "<br><br>";
+
+        echo "<b>Lowercase:</b> ";
+        echo strtolower($str2);
+        echo "<br><br>";
+
+        echo "<b>Concatenated String:</b> ";
+        echo $str1 . " " . $str2;
+
+    ?>
+
+</body>
+</html>

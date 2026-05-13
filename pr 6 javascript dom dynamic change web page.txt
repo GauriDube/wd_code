@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Manipulation Example</title>
+
+    <script>
+        function changeContent() {
+
+            document.getElementById("heading").innerHTML =
+                "Content Changed Successfully!";
+
+            document.getElementById("para").innerHTML =
+                "This content is updated using JavaScript DOM Manipulation.";
+
+            document.body.style.backgroundColor = "lightblue";
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1 id="heading">Welcome to JavaScript DOM</h1>
+
+    <p id="para">
+        Click the button to change webpage content.
+    </p>
+
+    <button onclick="changeContent()">
+        Click Here
+    </button>
+
+</body>
+</html>
