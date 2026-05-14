@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DOM Manipulation Example</title>
+<title>all dom examples</title>
+<style>
+body{
+text-align:"center";
+margin-top=40px;}
+.box{
+border:2px solid black;
+padding:10px;
+margin:20px auto;
+width:200px;
+text-align:center;}
 
-    <script>
-        function changeContent() {
+button{
+border:1px solid blue;
+padding:10px;}
 
-            document.getElementById("heading").innerHTML =
-                "Content Changed Successfully!";
-
-            document.getElementById("para").innerHTML =
-                "This content is updated using JavaScript DOM Manipulation.";
-
-            document.body.style.backgroundColor = "lightblue";
-        }
-    </script>
+</style>
 </head>
-
 <body>
+<script>
+function changeText() {
+    document.getElementById("text").innerHTML = "Hello, text changed";
+}
 
-    <h1 id="heading">Welcome to JavaScript DOM</h1>
+function changeStyle() {
+    document.getElementById("text").style.color = "red";
+}
 
-    <p id="para">
-        Click the button to change webpage content.
-    </p>
+function showDate() {
+    document.getElementById("text").innerHTML = new Date();
+}
 
-    <button onclick="changeContent()">
-        Click Here
-    </button>
 
+function changebackgroundColor() {
+     document.body.style.backgroundColor = "lightblue";
+}
+</script>
+
+
+
+
+<h1>DOM Manipulation</h1>
+
+<div class="box">
+    <p id="text">CSS</p>
+    <input type="text" id="input">
+</div>
+
+<button onclick="changeText()">changeText</button>
+<button onclick="changeStyle()">changeStyle</button>
+<button onclick="showDate()">showDate</button>
+<button onclick="changebackgroundColor()">changebackgrounColor</button>
 </body>
 </html>
