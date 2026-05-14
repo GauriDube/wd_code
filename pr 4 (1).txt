@@ -1,60 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CSS Example</title>
+    <title>CSS Types Demo</title>
 
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
     <style>
         h2 {
-            color: blue;
+            color: darkgreen;
             text-align: center;
+            background-color: lightyellow;
+            padding: 10px;
         }
 
         p {
             font-size: 18px;
-            color: green;
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 60%;
-        }
-
-        th, td {
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
+  color: navy;
+            line-height: 1.6;
         }
     </style>
-
-    <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
-    <h1 style="color:red; text-align:center;">
+    <!-- Inline CSS -->
+    <h1 style="color: white; background-color: blue; text-align: center; padding: 15px;">
         Welcome to CSS Demo
     </h1>
 
-    <h2>Internal CSS Heading</h2>
+    <!-- Internal CSS Applied -->
+    <h2>Internal CSS Example</h2>
 
     <p>
         This paragraph is styled using internal CSS.
+        Internal CSS is written inside the style tag.
     </p>
-
+ <!-- External CSS Applied -->
     <table>
         <tr>
             <th>Name</th>
             <th>Course</th>
+            <th>Marks</th>
         </tr>
 
         <tr>
-            <td>Gauri</td>
-            <td>BSc CS</td>
+            <td>Rahul</td>
+            <td>HTML</td>
+            <td>85</td>
         </tr>
 
         <tr>
-            <td>Shrija</td>
-            <td>BCA</td>
+            <td>Sneha</td>
+            <td>CSS</td>
+            <td>90</td>
         </tr>
     </table>
 
@@ -64,16 +63,42 @@
 
 
 
+style.css file
 
 
 
+/* External CSS */
 
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
 
+/* Table Styling */
+table {
+    width: 60%;
+    border-col/* External CSS */lapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
 
+th {
+    background-color: darkblue;
+    color: white;
+    padding: 12px;
+}
 
-css file style.css body{
-background-color: lightyellow;
-font-family : arial;
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
 
